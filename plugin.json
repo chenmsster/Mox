@@ -1,0 +1,12 @@
+{
+    "ID":"1C6659D862F54D2787C27348AE5AD25C",
+    "ActionKeyword":"m",
+    "Name":"Mox",
+    "Description":"Mason Wox",
+    "Author":"Mason.M.Chen",
+    "Version":"1.0.0",
+    "Language":"python",
+    "Website":"https://github.com/chenmsster",
+    "IcoPath":"Images\\app.ico",
+    "ExecuteFileName":"main.py"
+}
