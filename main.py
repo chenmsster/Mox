@@ -6,14 +6,14 @@ from util import WoxEx, WoxAPI, load_module, Log
 with load_module():
     import pyperclip
     import os
-    import win32api     
+    import win32api
 
 
 class Main(WoxEx):  # 继承WoxEx
     def query(self, keyword):
         results = list()
         results.append({
-            "Title": "e=edge|r=revit2019",
+            "Title": "e=edge|ed=editplus|r=revit2019",
             "SubTitle": keyword,
             "IcoPath": "Images/app.ico",
             "JsonRPCAction": {
@@ -27,9 +27,16 @@ class Main(WoxEx):  # 继承WoxEx
     def ProcessInput(self, keyword):
 
         if keyword == "e":
-            os.system('MicrosoftEdge.exe')
+            # os.system('MicrosoftEdge.exe')
+            # win32api.ShellExecute(0, 'open', 'C:\\Users\\chenm\\AppData\\Local\\Microsoft\\WindowsApps\\MicrosoftEdge.exe', '', '', 1)
+            os.system('%windir%\\explorer.exe shell:Appsfolder\Microsoft.MicrosoftEdge_8wekyb3d8bbwe!MicrosoftEdge')
+
         elif keyword == "r":
-            win32api.ShellExecute(0, 'open', 'C:\\Program Files\\Autodesk\\Revit 2019\\Revit.exe', '','',1)
+            win32api.ShellExecute(
+                0, 'open', 'C:\\Program Files\\Autodesk\\Revit 2019\\Revit.exe', '', '', 1)
+        elif keyword == "ed":
+            win32api.ShellExecute(
+                0, 'open', 'E:\\software\\EditPlus 3\\EditPlus.exe', '', '', 1)
         else:
             pyperclip.copy(keyword)
 
