@@ -29,14 +29,17 @@ class Main(WoxEx):  # 继承WoxEx
         if keyword == "e":
             # os.system('MicrosoftEdge.exe')
             # win32api.ShellExecute(0, 'open', 'C:\\Users\\chenm\\AppData\\Local\\Microsoft\\WindowsApps\\MicrosoftEdge.exe', '', '', 1)
-            os.system('%windir%\\explorer.exe shell:Appsfolder\Microsoft.MicrosoftEdge_8wekyb3d8bbwe!MicrosoftEdge')
-
+            os.system(
+                '%windir%\\explorer.exe shell:Appsfolder\Microsoft.MicrosoftEdge_8wekyb3d8bbwe!MicrosoftEdge')
+        elif keyword == "o":
+            os.system(
+                '%windir%\\explorer.exe shell:Appsfolder\Microsoft.Office.OneNote_8wekyb3d8bbwe!microsoft.onenoteim')            
         elif keyword == "r":
             win32api.ShellExecute(
                 0, 'open', 'C:\\Program Files\\Autodesk\\Revit 2019\\Revit.exe', '', '', 1)
         elif keyword == "ed":
             win32api.ShellExecute(
-                0, 'open', 'E:\\software\\EditPlus 3\\EditPlus.exe', '', '', 1)
+                0, 'open', 'E:\\software\\EditPlus 3\\EditPlus.exe', '', '', 1)        
         else:
             pyperclip.copy(keyword)
 

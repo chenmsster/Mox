@@ -1,0 +1,137 @@
+https://docs.microsoft.com/zh-cn/previous-versions//mt592643(v=vs.85)?redirectedfrom=MSDN
+
+Windows 10 移动版中的产品 ID
+2016/06/14
+你可以在 Lockdown.xml 中使用产品 ID 和应用程序用户模型 (AUMID) 来指定将向用户提供的应用。
+Windows 10 移动版中包含的应用
+
+下表列出了 Windows 10 移动版中包含的每个应用的产品 ID 和 AUMID。
+
+
+
+应用
+产品 ID
+AUMID
+闹钟和时钟
+44F7D2B4-553D-4BEC-A8B7-634CE897ED5F
+Microsoft.WindowsAlarms_8wekyb3d8bbwe!App
+计算器
+B58171C6-C70C-4266-A2E8-8F9C994F4456
+Microsoft.WindowsCalculator_8wekyb3d8bbwe!App
+相机
+F0D8FEFD-31CD-43A1-A45A-D0276DB069F1
+Microsoft.WindowsCamera_8wekyb3d8bbwe!App
+联系支持人员
+0DB5FCFF-4544-458A-B320-E352DFD9CA2B
+Windows.ContactSupport_cw5n1h2txyewy!App
+Cortana
+FD68DCF4-166F-4C55-A4CA-348020F71B94
+Microsoft.Windows.Cortana_cw5n1h2txyewy!CortanaUI
+Excel
+EAD3E7C0-FAE6-4603-8699-6A448138F4DC
+Microsoft.Office.Excel_8wekyb3d8bbwe!microsoft.excel
+Facebook
+82A23635-5BD9-DF11-A844-00237DE2DB9E
+Microsoft.MSFacebook_8wekyb3d8bbwe!x82a236355bd9df11a84400237de2db9e
+文件资源管理器
+C5E2524A-EA46-4F67-841F-6A9465D9D515
+c5e2524a-ea46-4f67-841f-6a9465d9d515_cw5n1h2txyewy!App
+调频广播
+F725010E-455D-4C09-AC48-BCDEF0D4B626
+不适用
+入门
+B3726308-3D74-4A14-A84C-867C8C735C3C
+Microsoft.Getstarted_8wekyb3d8bbwe!App
+Groove 音乐
+D2B6A184-DA39-4C9A-9E0A-8B589B03DEC0
+Microsoft.ZuneMusic_8wekyb3d8bbwe!Microsoft.ZuneMusic
+地图
+ED27A07E-AF57-416B-BC0C-2596B622EF7D
+Microsoft.WindowsMaps_8wekyb3d8bbwe!App
+消息
+27E26F40-E031-48A6-B130-D1F20388991A
+Microsoft.Messaging_8wekyb3d8bbwe!x27e26f40ye031y48a6yb130yd1f20388991ax
+Microsoft Edge
+395589FB-5884-4709-B9DF-F7D558663FFD
+Microsoft.MicrosoftEdge_8wekyb3d8bbwe!MicrosoftEdge
+财经
+1E0440F1-7ABF-4B9A-863D-177970EEFB5E
+Microsoft.BingFinance_8wekyb3d8bbwe!AppexFinance
+电影和电视
+6AFFE59E-0467-4701-851F-7AC026E21665
+Microsoft.ZuneVideo_8wekyb3d8bbwe!Microsoft.ZuneVideo
+新闻
+9C3E8CAD-6702-4842-8F61-B8B33CC9CAF1
+Microsoft.BingNews_8wekyb3d8bbwe!AppexNews
+OneDrive
+AD543082-80EC-45BB-AA02-FFE7F4182BA8
+Microsoft.MicrosoftSkydrive_8wekyb3d8bbwe!App
+OneNote
+CA05B3AB-F157-450C-8C49-A1F127F5E71D
+Microsoft.Office.OneNote_8wekyb3d8bbwe!microsoft.onenoteim
+Outlook 日历
+A558FEBA-85D7-4665-B5D8-A2FF9C19799B
+Microsoft.WindowsCommunicationsApps_8wekyb3d8bbwe!Microsoft.WindowsLive.Calendar
+Outlook 邮件
+A558FEBA-85D7-4665-B5D8-A2FF9C19799B
+Microsoft.WindowsCommunicationsApps_8wekyb3d8bbwe!Microsoft.WindowsLive.Mail
+人脉
+60BE1FB8-3291-4B21-BD39-2221AB166481
+Microsoft.People_8wekyb3d8bbwe!xb94d6231y84ddy49a8yace3ybc955e769e85x
+电话（拨号程序）
+F41B5D0E-EE94-4F47-9CFE-3D3934C5A2C7
+Microsoft.CommsPhone_8wekyb3d8bbwe!App
+照片
+FCA55E1B-B9A4-4289-882F-084EF4145005
+Microsoft.Windows.Photos_8wekyb3d8bbwe!App
+播客
+C3215724-B279-4206-8C3E-61D1A9D63ED3
+Microsoft.MSPodcast_8wekyb3d8bbwe!xc3215724yb279y4206y8c3ey61d1a9d63ed3x
+Powerpoint
+B50483C4-8046-4E1B-81BA-590B24935798
+Microsoft.Office.PowerPoint_8wekyb3d8bbwe!microsoft.pptim
+设置
+2A4E62D8-8809-4787-89F8-69D0F01654FB
+2a4e62d8-8809-4787-89f8-69d0f01654fb_8wekyb3d8bbwe!App
+Skype
+C3F8E570-68B3-4D6A-BDBB-C0A3F4360A51
+Microsoft.SkypeApp_kzf8qxf38zg5c!Skype.AppId
+Skype 视频
+27E26F40-E031-48A6-B130-D1F20388991A
+Microsoft.Messaging_8wekyb3d8bbwe!App
+体育
+0F4C8C7E-7114-4E1E-A84C-50664DB13B17
+Microsoft.BingSports_8wekyb3d8bbwe!AppexSports
+存储
+5B04B775-356B-4AA0-AAF8-6491FFEA564D
+不适用
+应用商店
+7D47D89A-7900-47C5-93F2-46EB6D94C159
+Microsoft.WindowsStore_8wekyb3d8bbwe!App
+语音录音机
+7311B9C5-A4E9-4C74-BC3C-55B06BA95AD0
+Microsoft.WindowsSoundRecorder_8wekyb3d8bbwe!App
+电子钱包
+587A4577-7868-4745-A29E-F996203F1462
+Microsoft.MicrosoftWallet_8wekyb3d8bbwe!App
+天气
+63C2A117-8604-44E7-8CEF-DF10BE3A57C8
+Microsoft.BingWeather_8wekyb3d8bbwe!App
+Windows 反馈
+7604089D-D13F-4A2D-9998-33FC02B63CE3
+Microsoft.WindowsFeedback_8wekyb3d8bbwe!App
+Word
+258F115C-48F4-4ADB-9A68-1387E634459B
+Microsoft.Office.Word_8wekyb3d8bbwe!microsoft.word
+Xbox
+B806836F-EEBE-41C9-8669-19E243B81B83
+Microsoft.XboxApp_8wekyb3d8bbwe!Microsoft.XboxApp
+ 
+获取其他应用的产品 ID 和 AUMID
+
+若要获取从 Windows 应用商店安装的或本地安装（旁加载）的应用的产品 ID 和 AUMID，请使用以下步骤。
+先决条件：设备中插入了 SD 卡，并且安装了所有要获取 ID 的应用
+在“开始”屏幕  上，轻扫到“应用列表”，然后依次点击“设置” >“帐户”****>“应用园地”。
+点击“应用”****、点击以选择你想要获取 ID 的应用，然后点击“完成”
+点击“高级”，然后点击“导出到 SD 卡”****。
+使用 USB 将设备连接到电脑，然后在设备的 SD 卡上打开 WEHLockdown.xml 文件，查看每个应用的产品 ID 和 AUMID。
